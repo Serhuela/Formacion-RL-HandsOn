@@ -6,7 +6,7 @@ from tensorboardX import SummaryWriter
 
 print("Starting...")
 print("In order to track learning, please execute:")
-print("tensorboard --logdir src/runs --host localhost")
+print("tensorboard --logdir runs --host localhost")
 batch_size = 50000
 increment = float(batch_size)/50000
 limit = 100
